@@ -54,12 +54,14 @@ imgBase1="Data/imgBase1.png"
 imgMask1="Data/imgMask1.png"
 
 
-#urlImage = createImageVariation(imgBase)
 
 
 
-urlImage = createImageEdit("add a cat in the white circle", imgBase1, imgMask1)
+
 #urlImage = createImage("A Polar bar dancing on the water with colorfuk fireworks around")
+#urlImage = createImageEdit("a child playing in the pool", imgBase1, imgMask1)
+urlImage = createImageVariation(imgBase1)
+
 
 urllib.request.urlretrieve(urlImage, "TempImageName.png") 
 img = Image.open("TempImageName.png") 

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{71db745a-dde0-423f-bd22-c5602567fc18}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Demo_API\APIImage.py</StartupFile>
+    <StartupFile>Demo_API\GUIPyQt1.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,8 +20,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Data\imgBase.png" />
+    <Content Include="Data\imgBase1.png" />
     <Content Include="Data\imgMask.png" />
     <Content Include="Data\gfg.png" />
+    <Content Include="Data\imgMask1.png" />
     <Content Include="Data\TempImageName.png" />
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +36,7 @@
     <Compile Include="Demo_API\APISound.py" />
     <Compile Include="Demo_API\APIText.py" />
     <Compile Include="Demo_API\APITTSandSTT.py" />
+    <Compile Include="Demo_API\GUIPyQt1.py" />
     <Compile Include="GUIKivy.py" />
     <Compile Include="GUIPyQt.py" />
     <Compile Include="GUIPySide.py" />
